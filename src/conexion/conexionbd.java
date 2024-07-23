@@ -19,7 +19,7 @@ public class conexionbd {
     public conexionbd(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");            
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sedo_aa","root","16461219bcG");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sedo_aa","root","16461219bcG@");
         }catch(ClassNotFoundException | SQLException e){
             System.out.println("La Conexion no Fue Exitosa");
         }
